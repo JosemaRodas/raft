@@ -1,0 +1,251 @@
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    height: 40px;
+    text-decoration: none;
+
+}
+
+body{
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+
+}
+
+.bar{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.logo_link {
+    margin-top: -10px;
+    margin-left: -70px;
+    justify-self: center;
+    align-self: center;
+    text-decoration: none;
+
+}
+
+.hero-msg{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+    margin-top: -1400px;
+    text-align: center;
+
+}
+
+.home-title{
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 4em;
+
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 100%;
+    margin-top: -80px; 
+}
+
+.hero-box {
+    grid-column: 100%;
+    grid-row: 100%;
+    z-index: -1;
+    width: 100%
+}
+
+
+.book{
+    background-color: #927f63;
+    padding: 1rem 1rem;
+    margin: 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+}
+
+
+.home-grid{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 33.3% 33.3% 33.3%;
+    text-align: center;
+    
+}
+
+.rivers-card{
+    border: 10px solid rgb(200, 202, 201);
+    background: rgb(217, 172, 156);
+    width: 300px;
+    height: 300px;
+    padding: 0;
+    margin: 10px;
+  
+}
+.camping-card{
+    border: 10px solid rgb(200, 202, 201);
+    background: #5DEAA8;
+    width: 300px;
+    height: 300px;
+    padding: 0;
+    margin: 10px;
+}
+
+.rapids-card{
+    border: 10px solid rgb(200, 202, 201);
+    background: #5DEAA8;
+    width: 300px;
+    height: 300px;
+    padding: 0;
+    margin: 10px;
+}
+
+
+.mountainbox{
+    margin-top: 100px;
+    background-color: #dbc3a3; 
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% ;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    text-align: center;
+    color: #e4dede;
+}
+
+.photo{
+    grid-column: 2/8;
+    grid-row: 2/4;
+}
+
+.text{
+    background-color: #b7ad99;
+    border: 10px solid rgb(147, 150, 148);
+    width: 600px;
+    height: 200px;
+    border: 2px solid #927f63; 
+    padding: 10px;
+    grid-column: 6/8;
+    grid-row: 4/4;
+    border-radius: 0.8rem;
+    margin-bottom: 100px;
+}
+
+.join{
+    background-color: #927f63;
+    color: var(--blanco);
+    padding: 1rem 1rem;
+    margin: 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    margin-top: 100px;
+}
+
+
+
+
+
+#hero-msg{
+    margin-top: 150px;
+}
+
+
+#logo_link {
+    padding-top: 1px;
+    justify-self: center;
+    align-self: center;
+}
+
+  
+#background {
+    height: 725px;
+}
+  
+body {
+    background-color: #e5d5d5; 
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+  
+header {
+    background-color: rgba(178, 180, 177, 0.7);
+    padding: 20px;
+}
+
+.logo {
+    width: 60px;
+}
+ 
+
+
+nav a, nav a:hover {
+    color: #fcfbfb; 
+  }
+  
+  .home-title, h4, .book, .join, .msg h2, .msg p, footer, footer a {
+    color: #e4dede; 
+  }
+  
+
+
+
+  footer {
+    background-color: #6f7364;
+    padding: 25px 50px;
+    margin-top: 100px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+  
+  @media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    #hero-msg h1 {
+        color: #6f7364;
+    }
+    .home-title {
+        font-size: 25px;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
+       
